@@ -1,0 +1,38 @@
+{
+  "name": "apiexpressmongo",
+  "version": "1.0.0",
+  "description": "api con express conectada a una base de datos mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgdj92/apipru.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "mongo",
+    "DB"
+  ],
+  "author": "Jorge Ivan Reyes Valencia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgdj92/apipru/issues"
+  },
+  "homepage": "https://github.com/jorgdj92/apipru#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
